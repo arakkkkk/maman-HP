@@ -52,7 +52,7 @@ p {
 @media (max-width: 500px) {
     h1 {
         font-weight: bold;
-        font-size: 22px;
+        font-size: 25px;
         border-bottom: solid;
         border-width: 1.5px;/*5ピクセルの太さにする*/
         margin-bottom: 15px;
