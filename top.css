@@ -50,6 +50,9 @@ p {
 }
 
 @media (max-width: 500px) {
+    .content .blur {
+        height: 500px;
+    }
     h1 {
         font-weight: bold;
         font-size: 25px;
@@ -60,6 +63,6 @@ p {
     p {
         padding: 0px 0px;
         margin: 5px 0px;
-        font-size: 10px;
+        font-size: 18px;
     }
 }
