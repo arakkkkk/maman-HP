@@ -1,0 +1,65 @@
+body {
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'ヒラギノ明朝 Pro W6';
+}
+.navbar {
+    background-color: rgba(88,63,42,0.8);
+    border-bottom-style: solid;
+    border-bottom-width:1px;
+    border-color: #FFFFFF;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 56px;
+    border-bottom: solid;
+    border-width: 1.5px;/*5ピクセルの太さにする*/
+    margin-bottom: 60px;
+}
+p {
+    padding: 10px 0px;
+    font-size: 22px;
+}
+
+.content {
+    position: relative;
+}
+.content span {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    width: 70vw;
+    margin:0;
+    padding:0;
+}
+.content .blur {
+    width: 100%;
+    filter: blur(2px) contrast(120%) brightness(40%);
+}
+#maman_title {
+    width:60vw;
+    padding:0;
+    margin:0;
+}
+
+@media (max-width: 500px) {
+    h1 {
+        font-weight: bold;
+        font-size: 22px;
+        border-bottom: solid;
+        border-width: 1.5px;/*5ピクセルの太さにする*/
+        margin-bottom: 15px;
+    }
+    p {
+        padding: 0px 0px;
+        margin: 5px 0px;
+        font-size: 10px;
+    }
+}
