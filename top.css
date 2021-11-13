@@ -23,6 +23,14 @@ p {
     padding: 10px 0px;
     font-size: 22px;
 }
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    color: gray;
+    text-decoration: underline;
+}
 
 .content {
     position: relative;
